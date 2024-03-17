@@ -6,16 +6,16 @@ import tokenaddressorgin from "../assets/tokenaddressorgin.svg"
 
 function Guywithcup() {
   return (
-    <div className=' flex flex-row'>
+    <div className=' flex flex-col lg:flex-row lg:px-32 px-4'>
 
-      <div>
-        <img src={normiedudewithcup} alt="" />
-        <img src={buynormie} alt="" />
+      <div className='lg:w-6/12'>
+        <img src={normiedudewithcup} alt="" className=' w-96'/>
+        <img src={buynormie} alt="" className=' my-10' />
       </div>
 
-      <div>
-        <img src={tokensupply} alt="" />
-        <img src={tokenaddressorgin} alt="" />
+      <div className='lg:w-6/12 flex flex-col justify-end'>
+        <img src={tokensupply} alt="" className='pb-10'/>
+        <img src={tokenaddressorgin} alt="" className='pb-10'/>
       </div>
     </div>
   )

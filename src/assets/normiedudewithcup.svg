@@ -1,6 +1,11 @@
-<svg width="500" height="646" viewBox="0 0 500 646" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="32.5" y="0.5" width="461" height="645" fill="#1D1D1D" stroke="black"/>
-<rect y="41" width="500" height="605" fill="url(#pattern0)"/>
+<svg width="462" height="646" viewBox="0 0 462 646" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<mask id="mask0_53_109" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="462" height="646">
+<rect x="0.5" y="0.5" width="461" height="645" fill="#1D1D1D" stroke="black"/>
+</mask>
+<g mask="url(#mask0_53_109)">
+<rect x="0.5" y="0.5" width="461" height="645" fill="#1D1D1D" stroke="black"/>
+<rect x="-32" y="41" width="500" height="605" fill="url(#pattern0)"/>
+</g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_53_109" transform="matrix(0.00242 0 0 0.002 -0.105 0)"/>

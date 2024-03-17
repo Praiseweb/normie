@@ -8,11 +8,11 @@ import Guywithcup from "./components/Guywithcup"
 function App() {
   return (
     <div>
-      {/* {<Hero/>} */}
+      {<Hero/>}
       {<Joinnormie/>}
-      {/* {<Tokenomics/>} */}
-      {/* {<Guywithcup/>} */}
-      {/* {<Socials/>} */}
+      {<Tokenomics/>}
+      {<Guywithcup/>}
+      {<Socials/>}
     </div>
   )
 }

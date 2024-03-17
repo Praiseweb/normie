@@ -9,16 +9,16 @@ function Socials() {
   return (
     <div>
       <div className="HERO flex flex-col items-center p-4 lg:p-10 relative">
-        <img src={social} alt="" />
+        <img src={social} alt="" className='pb-10'/>
         <img src={jointhenormiecommunity} alt="" />
       </div>
       
-      <div className=' flex flex-row justify-center'>
-        <img src={twitter} alt="" />
-        <img src={telegram} alt="" />
+      <div className=' flex flex-row justify-center pt-10 lg:pt-0'>
+        <img src={twitter} alt="" className='px-5'/>
+        <img src={telegram} alt="" className='px-5'/>
       </div>
 
-      <div className='flex'>
+      <div className=' flex justify-end'>
         <img src={normiewoman} alt="" />
       </div>
     </div>
