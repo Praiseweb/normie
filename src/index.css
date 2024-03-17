@@ -4,4 +4,7 @@
 
 body {
     /* background: #BA43F1; */
+    background-image: linear-gradient(to right top, #8484e7, #8c79ee, #986cf2, #a85bf3, #ba43f1);
+    background-repeat: no-repeat;
+    background-size: contain; 
 }
