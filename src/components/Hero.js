@@ -20,11 +20,11 @@ function Hero() {
         
         <div className='flex flex-col lg:flex-row'>
 
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=8uiGzEgcoMmuSFjpFMxhkFNfPm7FrRgT2RgcY5TZ8MDn&fixed=in" target="_blank" rel="noopener noreferrer">
           <img src={buynormie} alt="" className='p-4'/>   
           </a>
 
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://dexscreener.com/solana/8uiGzEgcoMmuSFjpFMxhkFNfPm7FrRgT2RgcY5TZ8MDn" target="_blank" rel="noopener noreferrer">
           <img src={dexscreener} alt="" className='p-4'/>   
           </a>
 
