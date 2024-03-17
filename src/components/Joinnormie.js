@@ -8,7 +8,7 @@ import Bubbles from './Bubbles'
 function Joinnormie() {
   return (
     
-      <div className="HERO flex flex-col items-center p-4 lg:p-10 relative">
+      <div className="HERO flex flex-col items-center p-4 lg:p-10 relative bg-[#1D1D1D]">
         <img src={joinnormie} alt="" className='w-[272px] lg:w-[670px]' />
         <p className='text-center lg:text-4xl w-auto lg:w-[877px] text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima soluta ducimus sapiente voluptate a nesciunt asperiores labore vitae laborum, corrupti voluptates itaque fuga dicta similique.</p>
         <div>

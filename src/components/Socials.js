@@ -8,7 +8,7 @@ import Bubbles from './Bubbles'
 
 function Socials() {
   return (
-    <div className='relative'>
+    <div className='relative bg-[#1D1D1D]'>
       <div className="HERO flex flex-col items-center p-4 lg:p-10 relative">
         <img src={social} alt="" className='pb-10'/>
         <img src={jointhenormiecommunity} alt="" />

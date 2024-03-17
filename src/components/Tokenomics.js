@@ -1,6 +1,5 @@
 import React from 'react'
-import Tokenomicss from "../assets/tokenomics.svg" 
-import Bubbles from './Bubbles'
+import Tokenomicss from "../assets/tokenomics.svg"  
 
 function Tokenomics() {
   return (
@@ -8,8 +7,7 @@ function Tokenomics() {
       <div className="HERO flex flex-col items-center p-4 lg:p-10 relative">
         <img src={Tokenomicss} alt="" className='my-10' />
         <p className='text-center lg:text-5xl text-white b-10'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos hic consectetur quam quia necessitatibus, et architecto neque quod atque ab, laborum vero quae suscipit, earum sed blanditiis placeat. Cum, et.</p>
-
-       <Bubbles/>
+ 
       </div>
    
   )
