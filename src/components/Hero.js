@@ -27,7 +27,7 @@ function Hero() {
 
         <img src={normieroll} alt="" className='hidden lg:flex absolute bottom-0 w-[1000px] max-w-none lg:w-auto' />
       </div>
-        <img src={normieroll} alt="" className='flex lg:hidden fixed bottom-0 w-[1000px] max-w-none lg:w-auto' />
+        <img src={normieroll} alt="" className='z-50 flex lg:hidden fixed bottom-0 w-[1000px] max-w-none lg:w-auto' />
     </div>
   )
 }
