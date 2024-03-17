@@ -7,7 +7,7 @@ import Guywithcup from "./components/Guywithcup"
 
 function App() {
   return (
-    <div>
+    <div className='from-[#8484E7] to-[#BA43F1] bg-gradient-to-tl'>
       {<Hero/>}
       {<Joinnormie/>}
       {<Tokenomics/>}
