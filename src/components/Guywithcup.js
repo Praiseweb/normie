@@ -2,8 +2,8 @@ import React from 'react'
 import buynormie from "../assets/buynormie.svg"
 import normiedudewithcup from "../assets/normiedudewithcup.svg"
 import tokensupply from "../assets/tokensupply.svg"
-import tokenaddressorgin from "../assets/tokenaddressorgin.svg"
-import bub1 from "../assets/bub1.svg"
+import tokenaddressorgin from "../assets/tokenaddressorgin.svg" 
+import Bubbles from './Bubbles'
 
 function Guywithcup() {
   return (
@@ -19,8 +19,7 @@ function Guywithcup() {
         <img src={tokenaddressorgin} alt="" className='pb-10'/>
       </div>
 
-      <img src={bub1} alt="" className='absolute top-1 left-[-82px] z-[-1] w-72'/>
-        <img src={bub1} alt="" className='absolute bottom-[357px] right-[-82px] z-[-1] w-80 rotate-45'/>
+      <Bubbles/>
     </div>
   )
   

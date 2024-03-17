@@ -2,8 +2,8 @@ import React from 'react'
 import jointhenormiearmy from "../assets/jointhenormiearmy.svg"
 import normiedudewithshirt from "../assets/normiedudewithshirt.svg"
 import joinnormie from "../assets/joinnormie.svg"
-import buynormie from "../assets/buynormie.svg"
-import bub1 from "../assets/bub1.svg"
+import buynormie from "../assets/buynormie.svg" 
+import Bubbles from './Bubbles'
 
 function Joinnormie() {
   return (
@@ -22,9 +22,8 @@ function Joinnormie() {
         </div>
         <img src="" alt="" />
 
-        <img src={bub1} alt="" className='absolute top-1 left-[-82px] z-[-1] w-72'/>
-        <img src={bub1} alt="" className='absolute bottom-[357px] right-[-82px] z-[-1] w-80 rotate-45'/>
-      </div>
+       <Bubbles/>
+        </div>
     
   )
 }

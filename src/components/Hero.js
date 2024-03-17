@@ -3,8 +3,8 @@ import normie from "../assets/normie.svg"
 import buynormie from "../assets/buynormie.svg"
 import normiedude from "../assets/normiedude.svg"
 import normieroll from "../assets/normieroll.svg"
-import dexscreener from "../assets/dexscreener.svg"
-import bub1 from "../assets/bub1.svg"
+import dexscreener from "../assets/dexscreener.svg" 
+import Bubbles from './Bubbles'
 function Hero() {
   return (
     <div>
@@ -33,9 +33,7 @@ function Hero() {
 
         <img src={normieroll} alt="" className='hidden lg:flex absolute bottom-0 w-[1000px] max-w-none lg:w-auto' />
 
-        <img src={bub1} alt="" className='absolute top-1 left-[-82px] z-[-1] w-72'/>
-        <img src={bub1} alt="" className='absolute bottom-[357px] right-[-82px] z-[-1] w-80 rotate-45'/>
-
+       <Bubbles/>
       </div>
         <img src={normieroll} alt="" className='z-50 flex lg:hidden fixed bottom-0 w-[1000px] max-w-none lg:w-auto' />
 

@@ -4,7 +4,7 @@ import jointhenormiecommunity from "../assets/jointhenormiecommunity.svg"
 import telegram from "../assets/normietelegram.svg"
 import twitter from "../assets/normietwitter.svg"
 import normiewoman from "../assets/normiefatwoman.svg"
-import bub1 from "../assets/bub1.svg"
+import Bubbles from './Bubbles'
 
 function Socials() {
   return (
@@ -23,8 +23,7 @@ function Socials() {
         <img src={normiewoman} alt="" />
       </div>
 
-      <img src={bub1} alt="" className='absolute top-1 left-[-82px] z-[-1] w-72'/>
-        <img src={bub1} alt="" className='absolute bottom-[357px] right-[-82px] z-[-1] w-80 rotate-45'/>
+      <Bubbles/>
     </div>
   )
 }
