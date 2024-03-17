@@ -4,11 +4,17 @@ import buynormie from "../assets/buynormie.svg"
 import normiedude from "../assets/normiedude.svg"
 import normieroll from "../assets/normieroll.svg"
 import dexscreener from "../assets/dexscreener.svg" 
+import monarch from "../assets/monarch.svg" 
 import Bubbles from './Bubbles'
 function Hero() {
   return (
     <div>
-      <div className="HERO flex flex-col items-center p-4 lg:p-10 relative z-10 " >
+      <div className="HERO flex flex-col items-center p-4 lg:p-10 lg:pt-2 relative z-10 " >
+      <div className='w-full flex items-end justify-end'>
+     <a href="http://t.me/PraiseMonarch" target="_blank" rel="noopener noreferrer">
+     <img src={monarch} alt="" className='my-3 w-80' />
+     </a>
+      </div>
 
         <img src={normie} alt="" className='w-[879px] ' />
         
@@ -27,7 +33,7 @@ function Hero() {
 
         <img src={normiedude} alt="" className='mt-[-62px] lg:mt-[0]'/>
 
-        <p className='text-center lg:text-right lg:text-5xl text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima soluta ducimus sapiente voluptate a nesciunt asperiores labore vitae laborum, corrupti voluptates itaque fuga dicta similique.</p>
+        <p className='text-center lg:text-right lg:text-5xl text-white'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, quia.</p>
 
         </div>
 
