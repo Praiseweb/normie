@@ -16,10 +16,14 @@ function Socials() {
       
       <div className=' flex flex-row justify-center pt-10 lg:pt-0'>
         
-        <a href="https://t.me/NORMIETAKEOVER" target="_blank" rel="noopener noreferrer">
+        <a href="https://twitter.com/normieonsolana" target="_blank" rel="noopener noreferrer">
         <img src={twitter} alt="" className='px-5'/>
         </a>
+        
+        <a href="https://t.me/NORMIETAKEOVER" target="_blank" rel="noopener noreferrer">
         <img src={telegram} alt="" className='px-5'/>
+        </a>
+        
       </div>
 
       <div className=' flex justify-end'>
