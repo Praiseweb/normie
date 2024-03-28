@@ -9,8 +9,13 @@ function Tokenomics() {
           
         </a>
         <img src={Tokenomicss} alt="" className='my-10' />
-        <p className='text-center lg:text-5xl text-white b-10'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos hic consectetur quam quia necessitatibus, et architecto neque quod atque ab, laborum vero quae suscipit, earum sed blanditiis placeat. Cum, et.</p>
- 
+        <p className='text-center lg:text-5xl text-white b-10'>
+        Who needs tokenomics when there no more dev? Enjoy.
+        </p>
+
+        <p className='text-center lg:text-5xl text-white b-10'>
+        TAX - 0/0
+        </p>
       </div>
    
   )

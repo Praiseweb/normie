@@ -33,7 +33,9 @@ function Hero() {
 
         <img src={normiedude} alt="" className='mt-[-62px] lg:mt-[0]'/>
 
-        <p className='text-center lg:text-right lg:text-5xl text-white'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, quia.</p>
+        <p className='text-center lg:text-5xl text-white b-10'>
+        Dev dumped so the community takeover began!  Become a <span style={{ color: 'black' }}>$NORMIE</span> today!
+        </p>
 
         </div>
 

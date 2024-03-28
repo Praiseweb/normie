@@ -1,5 +1,5 @@
 import React from 'react'
-import jointhenormiearmy from "../assets/jointhenormiearmy.svg"
+
 import normiedudewithshirt from "../assets/normiedudewithshirt.svg"
 import joinnormie from "../assets/joinnormie.svg"
 import buynormie from "../assets/buynormie.svg" 
@@ -10,7 +10,9 @@ function Joinnormie() {
     
       <div className="HERO flex flex-col items-center p-4 lg:p-10 relative bg-[#1D1D1D]">
         <img src={joinnormie} alt="" className='w-[272px] lg:w-[670px]' />
-        <p className='text-center lg:text-4xl w-auto lg:w-[877px] text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima soluta ducimus sapiente voluptate a nesciunt asperiores labore vitae laborum, corrupti voluptates itaque fuga dicta similique.</p>
+        <p className='text-center lg:text-5xl text-white b-10'>
+  Through thick and thin the <span style={{ color: '#E11CD9' }}>$Normie</span> have stayed resilient. We support the <span style={{ color: '#E11CD9' }}>$NORMIE</span> narrative across the blockchain and have love for Normies all around the world! Together, we are unstoppable!
+        </p>
         
          
         <a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=8uiGzEgcoMmuSFjpFMxhkFNfPm7FrRgT2RgcY5TZ8MDn&fixed=in" target="_blank" rel="noopener noreferrer" className='z-20'>

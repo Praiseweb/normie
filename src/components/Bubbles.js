@@ -3,8 +3,8 @@ import bub1 from "../assets/bub1.svg"
 
 function Bubbles() {
   return (
-    <div>
-        <img src={bub1} alt="" className='absolute top-1 left-[-82px] z-[-1] w-60b lg:w-72'/>
+    <div className='hidden lg:block'>
+      <img src={bub1} alt="" className='absolute top-1 left-[-82px] z-[-1] w-60b lg:w-72'/>
       <img src={bub1} alt="" className='absolute bottom-0 lg:bottom-[357px] right-[-82px] z-[-1] w-60b lg:w-80 rotate-45'/>
     </div>
   )
